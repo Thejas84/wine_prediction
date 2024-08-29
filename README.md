@@ -6,10 +6,13 @@ This project aims to predict the quality of white wine based on its chemical pro
 <br><br>
 **Features**
 
-Data Preprocessing: Standardization of the dataset using StandardScaler.
-Model Training: Train a Support Vector Machine (SVM) model on the preprocessed dataset.
-Model Evaluation: Evaluate the model's performance using a confusion matrix and classification report.
-Future Prediction: Predict the quality of wine based on new data sample
+**Data Preprocessing:** Standardization of the dataset using StandardScaler.
+
+**Model Training:** Train a Support Vector Machine (SVM) model on the preprocessed dataset.
+
+**Model Evaluation:** Evaluate the model's performance using a confusion matrix and classification report.
+
+**Future Prediction:** Predict the quality of wine based on new data sample
 
 <br><br>
 **Dataset**
@@ -22,10 +25,15 @@ The dataset used in this project is the White Wine Quality dataset from the YBI 
 **Prerequisites**
 
 Python 3.x
+
 Jupyter Notebook or Google Colab
+
 Required Python packages:
+
 pandas
+
 numpy
+
 scikit-learn
 
 <br><br>
@@ -33,10 +41,13 @@ scikit-learn
 
 **Clone the repository:**
 git clone https://github.com/yourusername/wine-quality-prediction.git
+
 **Navigate to the project directory:**
 cd wine-quality-prediction
+
 **Install the required packages:**
 pip install pandas numpy scikit-learn
+
 **Run the notebook:**
 Open the Jupyter Notebook or Google Colab and run the code cells sequentially.
 
@@ -44,10 +55,15 @@ Open the Jupyter Notebook or Google Colab and run the code cells sequentially.
 **Usage**
 
 **Data Preprocessing:** Load the dataset and apply standardization to the features.
+
 **Train/Test Split:** Split the dataset into training and test sets with a 70-30 ratio.
+
 **Model Training:** Train the SVM model on the training set.
+
 **Model Prediction:** Predict the quality of the wine using the test set.
+
 **Model Evaluation:** Use confusion matrix and classification report to evaluate the model's performance.
+
 **Future Prediction:** Predict wine quality for new data samples using the trained model.
 
 <br><br>
